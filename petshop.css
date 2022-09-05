@@ -1,0 +1,365 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	z-index: -1;
+	font-family: 'Modak' , cursive;
+	display: block;
+	overflow: auto;
+}
+.riooo {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Modak' , cursive;
+	display: block;
+	overflow: auto;	
+}
+
+#main {
+	overflow: hidden;
+}
+
+#navbar {
+	background: #adbefa;
+	overflow: hidden;
+	box-shadow: 2px 2px 5px #adbefa99;
+	position: fixed;
+	width: 100%
+}
+#navbar a {
+	text-decoration: none;
+	float: left;
+	padding: 15px;
+	font-size: 17px;
+	color: #000;
+	font-weight: bold;
+}
+#btn {
+	font-family: 'Modak' , cursive;
+	padding: 15px;
+	font-size: 17px;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	background: #adbefa; 
+}
+.dropdown {
+	float:left;
+}
+.sub {
+	position: fixed;
+	background: tomato;
+	border-radius: 30px;
+}
+.sub > a {
+	display: none;
+	float: none!important;
+}
+#btn:hover , #navbar a:hover{
+	border: 3px solid red;
+	padding: 12px;
+	margin-top: 0px;
+	border-radius: 30px;
+}
+.dropdown:hover .sub a{
+	display: block;
+	color: white!important;
+}
+.logo {
+	margin-top:0px;
+	padding: 0px;
+	margin-right: 30px;
+	margin-left: 60px;
+	color: red!important;
+}
+
+.logo:hover {
+	border-color: #0a2daa38!important;
+}
+/*==================================================================*/
+
+.div {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	background: white;
+	padding-bottom: 200px;
+	margin-top: 5px;
+}
+
+.divone {
+	width: 50%;
+	margin-top: 100px;
+}
+.divone h1{
+	font-family: 'Modak' , cursive;
+	font-size: 40px;
+	color: red;
+}
+.paragraph {
+	font-family: 'Modak' , cursive;
+	font-size: 17px;
+	color: grey;
+
+}
+.btncover {
+	font-family: 'Modak' , cursive;
+	outline: none;
+	border: none;
+	font-size: 17px;
+	background: white;
+	border-radius: 30px;
+	color: black;
+	border: 3px solid red;
+	margin-top: 20px;
+}
+.divtwo {
+	width: 40%;
+	margin-top: 150px;
+}
+
+.btncover:hover {
+	background: pink;
+}
+/*==================================================================*/
+.second {
+	font-family: 'Modak' , cursive;
+	display: flex;
+	justify-content: center;
+	/*margin-top: 200px;*/
+	/*padding-left: 100px;*/
+	background: white;
+	/*height: 1080px;
+	width: 1920px;*/
+}
+
+.seca {
+	margin-top: 100px; 
+	margin-bottom: 100px;
+	width: 30%;
+	background: white;
+	margin-right: 40px;
+}
+
+.seca img {
+	border-radius: 20px;
+}
+.secb {
+	margin-top: 120px; 
+	margin-bottom: 80px;
+	background: white;
+	width: 30%;
+}
+.secbpara{
+	background: white;
+}
+.secbpara h1{
+	font-size: 30px;
+}
+.secbpara p{
+	color: gray;
+}
+.secbphoto{
+	display: flex;
+}
+#secba {
+	background: url("img/22.2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 200px;
+	height: 100px;
+	border-radius: 20px;
+	color: white;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+#secbb {
+	background: url("img/22.3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 200px;
+	height: 100px;
+	border-radius: 20px;
+	color: white;
+	padding-top: 0px;
+	padding-bottom: 30px;
+	padding-right: 8px;
+	padding-left: 8px;
+	margin-left: 30px;
+}
+/*==================================================================*/
+#celepart {
+	font-family: 'Modak' , cursive;
+	display: block;
+	justify-content: center;
+}
+.celehead {
+	background: tomato;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+.celehead h1{
+	text-align: center;
+}
+.celeparent {
+	display: flex;
+	justify-content: center;
+	background: tomato;
+	padding-bottom: 50px;
+}
+.celelay {
+	width: 15%;
+	display: block;
+	background: tomato;
+	margin-right: 10px;
+	padding: 15px;
+}
+
+.celelay img{
+	width: 80%;
+	display: block;
+	background: pink;
+	border-radius: 50%;
+	border: 5px solid white;
+	margin-right: auto;
+	margin-left: auto;
+}
+.celelay h3 , .celelay p{
+	text-align: center;
+	color: white;
+}
+/*==================================================================*/
+.abmain {
+	display: block;
+	justify-content: center;
+	margin-top: 0px;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.abone {
+	background: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.abone h1{
+	text-align: center;
+}
+.abtwo {
+	background: white;
+	display: flex;
+	/*justify-content: center;*/
+	align-items: center;
+}
+.abtext {
+	width: 25%;
+	margin-right: 100px;
+	margin-left: 300px;
+	background: white;
+}
+.abtext h4 {
+	color: #666666;
+}
+.abtext p {
+	color: #999999;
+}
+.abimg {
+	width: 590px;
+}
+/*==================================================================*/
+.gallar {
+	overflow: hidden;
+	text-align: center;
+	display: block;
+	background: white;
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+.galtext {
+	margin-top: 0px;
+	margin-bottom: 40px;
+}
+.gal {
+	display: flex;
+	justify-content: center;
+}
+.gal div{
+	width: 15%;
+	padding: 5px;
+}
+/*==================================================================*/
+
+.contact {
+	display: block;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.rio {
+	display: flex;
+	text-align: center;
+}
+.map {
+	width: 70%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 0px
+	/*background:black;*/
+	/*border: 3px solid red;*/
+}
+.form {
+	width: 30%;
+	padding-right: 20px;
+}
+.form input{
+	width: 95%;
+	height: 35px;
+	font-size: 17px;
+	font-family: 'Modak', cursive;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.form textarea{
+	width: 95%;
+	font-size: 17px;
+	font-family: 'Modak', cursive;
+	padding-left: 10px;
+}
+
+#rrrr {
+	font-family: 'Modak' , cursive;
+	outline: none;
+	border: none;
+	background: white;
+	border-radius: 20px;
+	color: black;
+	border: 2px solid pink;
+	width: 95%;
+	font-size: 17px;
+/*	padding-left: 10px;*/
+}
+#rrrr:hover {
+	background: pink!important;
+}
+/*////////////////////////////////////////////////////////////////*/
+.top {	
+	width: 40px;
+	height: 60px;
+	font-size: 40px;
+	margin-left: 1200px;
+	margin-top: -240px;
+	float: none;
+	outline: none;
+	border-radius:40px 40px 20px 20px;
+	position: fixed;
+	color: rgb(7, 7, 7);
+	background:honeydew;
+	font-size: 22px;
+	border: 2px solid rgb(253, 22, 195);
+	box-shadow: 3px 3px 5px rgb(248, 233, 26), -3px -3px-5px rgb(206, 250, 13) ;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
